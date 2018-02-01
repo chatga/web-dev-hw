@@ -9,4 +9,4 @@ This assignment was difficult but rewarding for me because:
 
 [My Course notes](./notes.text)
 
-![Image of my Atom Editor](./images/screenshot.png)
+![Image of my Atom Editor](./images/Screenshot.png)
