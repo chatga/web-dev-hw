@@ -1,8 +1,12 @@
 - Data travels across the internet in packets which makes
 transferring much easier and quicker
+
 - The DNS is a server that translates Domain names to IP addresses across the internet
+
 - Cookies are stored information that allow websites to identify one another
+
 - The three basic parts of a URL are:
-  - Protocol:  a set of rules for transferring Data
-  - Name server:  It takes the written form of the name and translates it to numeric sequence
-  - 
+  - Protocol
+  - Domain name
+  - Path
+  
