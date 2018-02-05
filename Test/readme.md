@@ -1,4 +1,4 @@
-# Assingment 2
+# Test Readme file
 
 Version control is a software that allows the seamless tracking of code changes and allows multiple users to manipulate code simultaneously.
 
