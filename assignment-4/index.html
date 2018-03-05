@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Course Questionnaire</title>
+    <style>
+      * {font-family:arial}
+      legend {font-size:20px}
+      img, figure, figcaption, table {text-align:center;font-style:italic;margin:auto}
+      div {width:32%;display:inline-block;vertical-align:text-top;}
+      table, td, th {
+        border: 2px solid grey;
+        border-collapse: collapse;
+        padding: 5px
+      /* -- Step 16. I feel so lost in this class.  It is overwhelming.  I have spent over 12 hours on this assignment alone -- */
+
+
+
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <!-- Title Information -->
+      <img src="https://media-ed-online.github.io/intro-web-dev/img/logonav.png" alt="Media Arts Logo" title="Logo" width="100" height="100" style="float: left;"/>
+      <h1>Course Questionnaire</h1>
+      <p>Thank you for your interest in our course, <cite>Intro to Web Design!</cite><br/>
+        Please continue your registration by filling out these areas:</p>
+    </header>
+
+    <main>
+      <!-- Step 1 -->
+      <form action="http://www.example.com/register.php" method="get">
+
+      <!-- Part 1: Basic Info -->
+      <fieldset>
+        <legend>Contact Details</legend>
+        <!-- Step 2 (Name) -->
+        <p>Name:
+          <input type="text" name="name" id="name-first" placeholder="First" />
+          <input type="text" name="name" id="name-middle" placeholder="MI" size="3" maxlength="3" />
+          <input type="text" name="name" id="name-last" placeholder="Last" />
+        </p>
+        <!-- Step 3 (E-mail) -->
+        <p>E-mail:
+          <input type="email" name:"email" placeholder="you@email.com" autofocus />
+
+        </p>
+
+
+
+        <!-- Step 4 (Date) -->
+        <p>Date of Birth:
+          <input type="text" name="dob" placeholder="mm/dd/yyyy" />
+
+        </p>
+
+        <!-- Step 5 ("No" Radio) -->
+        <p>Have you taken a web design course before?</p>
+            <input id="yes" type="radio" name="prev-course" value="y">
+              <label for="yes">Yes</label>
+            <input id="no" type="radio" name="prev-course" value="y">
+              <label for="yes">Yes</label>
+
+
+      </fieldset>
+
+
+      <br />
+
+
+      <!-- Part : Previous Experience -->
+      <fieldset>
+        <legend>Previous Experience</legend>
+        <!-- BROWSERS --><div id="browsers">
+          <figure>
+            <img src="./images/browsers.png" alt="Image of a browser" title="Broswer Icon" width="100" height="100" />
+            <figcaption>Wowsers, Browsers</figcaption>
+          </figure>
+          <br />
+          <p>What is your preferred browser?</p>
+          <p><i>Choose one:</i></p>
+          <input type="radio" name="browser" value="firefox" /> Firefox
+          <br />
+          <input type="radio" name="browser" value="chrome" checked /> Chrome
+          <br />
+          <input type="radio" name="browser" value="ie" /> Internet Explorer
+          <br />
+          <input type="radio" name="browser" value="safari" /> Safari
+          <br />
+          <input type="radio" name="browser" value="opera" /> Opera
+          <br />
+          <input type="radio" name="browser" value="me" /> Microsoft Edge
+          <br />
+          <input type="radio" name="browser" value="other" /> Other
+
+
+        </div>
+
+        <div id="languages">
+      <figure>
+        <img src="./images/languages.png" alt="lang pic" title="language png" width="100" height="100" />
+        <br />
+        <figcaption> Chatting in Code </figcaption>
+      </figure>
+
+          <p>What languages are you familiar with?</p>
+          <p><i>Choose one or more:</i></p>
+          <input type="checkbox" value="html" /> HTML
+          <br />
+          <input type="checkbox" value="css" /> CSS
+          <br />
+          <input type="checkbox" value="java" /> JavaScript
+          <br />
+          <input type="checkbox" value="java" /> PHP
+          <br />
+          <input type="checkbox" value="ruby" /> Ruby
+          <br />
+          <input type="checkbox" value="python" /> Python
+          <br />
+          <input type="checkbox" value="other" /> Other
+
+        </div>
+
+        <div id="short-answer">
+        <figure>
+          <img src="./images/experience.png" alt="experience pic" title="experience png" width="100" height="100" />
+        <br />
+        <figcaption> In the Know? </figcaption>
+
+
+          <p>Introduce yourself!</p>
+
+          <p>“Hi! I'm a
+            <select name="experience-level">
+            <option value="gup">Guppy</option>
+            <option value="beg">Beginner</option>
+            <option value="nov"selected>Novice</option>
+            <option value="jour">Journeyman</option>
+            <option value:"exp">Expert</option>
+            <option value="wiz">Wizard</option>
+
+            </select>
+            web designer or developer.”</p>
+
+          <p>“Last year, I spent
+            <!-- Step 11 -->
+            <input type="number" name="experince-time"
+            id="experince-time" placeholder="##" size="15" max="12" size="2"/>
+            months studying or working in this field.”</p>
+
+          <textarea name="" cols="30" rows="2">“I think my most difficult task will be...</textarea>
+
+
+        </div>
+      </fieldset>
+
+
+      <!-- Part 3: Course Offerings -->
+      <fieldset>
+        <legend>Offerings and Availability
+      </legend>
+        <table>
+
+            <tr>
+              <th></th>
+              <th scope="col" > Spring Semester</th>
+              <th scope="col"> Summer Session</th>
+              <th scope="col">Autumn Session</th>
+              <th scope="col">Winter Session</th>
+              <th scope="col">Special Session</th>
+            </tr>
+            <tr>
+              <th scope="row">Times (PM)</th>
+              <td>M, W 12:00-2:00</td>
+              <td>F 5:30-9:30</td>
+              <td>M, W 12:00-2:00</td>
+              <th>M, W 12:00-2:00</td>
+              <td>TBA</td>
+            </tr>
+            <tr>
+              <th scope="row">Seats Available</th>
+              <td>12/60</td>
+              <td>FULL</td>
+              <td>FULL</td>
+              <td>2/60</td>
+              <td>0/60</td>
+            </tr>
+
+        </table>
+
+          <br />
+          <label>Username: <input type="text" name:"age" required="required" /></label>
+          <br />
+          <br />
+          <label>Password: <input type="text"name:"password" required="required" /></label>
+
+
+
+
+        </table>
+        <p>Yes! Sign me up for weekly e-mail alerts.<input type="checkbox" name="newsletter" value="y" checked="checked" />
+          <br />
+          <br />
+          <input type="image" src="./images/reg-button.png" name="register" value="Register" width="100" size="30" />
+        </p>
+
+      </form>
+    </main>
+  <p>
+    <img src="./images/registration-station.jpg" name="register" value="Register Today" width="500" height="333" />
+  </p>
+
+  </body>
+</html>
