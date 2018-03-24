@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>My Way-Cool Awesome Site</title>
-    <!-- Meta data and information about your site, not visible to visitors. -->
+    <title>Contact Us</title>
+    <meta charset="UTF-8">
+    <meta name="description"
+      content="Check me out" />
+    <meta name="author"
+      content="Martel Reum" />
+    <meta name="kewords"
+      content="search, Tater, Tot, Dish, contact, information" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: yellow;
+        font-family: 'helvetica', sans-serif;
+      }
+      h3{
+        color: black;
+        text-align: center;
+      }
+      a{color: purple;}
+
+      input[type=text], select, textarea {
+          width: 100%;
+          padding: 12px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          box-sizing: border-box;
+          margin-top: 6px;
+          margin-bottom: 16px;
+          resize: vertical;
+      }
+
+      input[type=submit] {
+          background-color: #4CAF50;
+          color: white;
+          padding: 12px 20px;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+      }
+
+      input[type=submit]:hover {
+          background-color: #45a049;
+      }
+
+      .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+      }
+
+    </style>
   </head>
 
   <body>
-    <!-- My "Way-Cool Awesome Site" contents, visible to visitors. -->
+    <h3> Comments????  </h3>
+      <div class="container">
+        <form action="/action_page.php" method="get">
+          <fieldset>
+              <legend> Tell us about your favorite dish!</legend>
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" autofocus placeholder="First Name....." required>
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" autofocus placeholder="Last Name....." required>
+              <label for="email">Email us</label>
+              <input type="text" id="email" name="email" autofocus placeholder="Your email....." required>
+              <label for="comments"> Comments</label>
+              <textarea id="comments" name="comment" style="height:200px" placeholder="Tell us how we're doing..." required >
+            </textarea>
+            <p align="center" id="nav">
+              <a href="../pages/instructions.html"> Instructions <a/> |
+              <a href="../pages/about.html"> About <a/> |
+              <a href="../index.html"> Home <a/>
   </body>
 </html>
