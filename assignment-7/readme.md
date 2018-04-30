@@ -1,0 +1,1 @@
+# I am lost using CSS.  I have read from various sites and finished all of my readings but I do not understand even the basics of how to get the font to work.  I don't even know where to begin with asking questions.  Lesson learned from this semester..... If you are a Social Work major, "AVOID WEB DESIGN".  I did okay with HTML but this switch to CSS has me lost.  

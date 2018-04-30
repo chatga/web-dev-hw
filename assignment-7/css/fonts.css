@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Skranji');
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+
+@font-face {
+	font-family:'Gugi', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Gugi');
+	src: local(../fonts/Gugi-Regular.ttf);
+}
+@font-face {
+	font-family: 'Skranji', cursive;
+	src: url('https://fonts.googleapis.com/css?family=Skranji');
+	src: local(./fonts/Skranji-Bold.ttf);
+}
+
+h1, h2, h3 {
+	font-family: 'Gugi', cursive;
+	font-size: 16px;
+	color: white;
+	font-weight: bold;
+}
+paragraph-1 {
+  font-family: 'Skranji', serif;
+  font-size: 2em;
+	color: white;
+
+}
+
+h4, h5, h6 {
+	font-family: 'Gugi', cursive;
+	font-size: 24px;
+	color: #fcb83d;
+}
