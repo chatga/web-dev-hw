@@ -1,0 +1,91 @@
+body {
+  background: white;
+}
+
+.box1 {
+  font-size: 40px;
+  text-align: right;
+  margin-right: 20%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.box2 {
+  font-size: 40px;
+  float:right;
+  margin-right: 20%;
+  width:220px;
+  background: black;
+  color: white;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.box3 {
+  font-size: 17px;
+  font-style: italic;
+  float:right;
+  margin-right: 20%;
+  padding-bottom: 3em;
+}
+
+.one {
+  font-size: 40px;
+  color: red;
+  text-align: right;
+  font-style: normal;
+}
+
+.two {
+  text-align: right;
+}
+
+.three {
+  font-size: 40px;
+  color: red;
+  text-align: right;
+  font-style: normal;
+}
+
+.four {
+  text-align: right;
+}
+
+.five {
+  font-size: 40px;
+  color: red;
+  text-align: right;
+  font-style: normal;
+}
+
+.six {
+  text-align: right;
+}
+
+.seven {
+  text-align: right;
+  font-style: normal;
+}
+
+.woman {
+	position: relative;
+	top: 40px;
+	left: 100px;
+}
+
+.eight {
+  font-style: normal;
+  font-size: 20px;
+}
+
+.nine {
+  font-style: normal;
+  font-size: 20px;
+}
+
+.coupon {
+  float: right;
+  border: 2px dashed black;
+  padding: 1em;
+  margin-right: 20%;
+}
